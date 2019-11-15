@@ -6,13 +6,13 @@ import Header from './components/Header';
 import Sidebar from './components/SIdebar';
 
 import { GlobalStyle } from './Global';
-import { Container, Wrapper, Content } from './Global/styles';
+import { Container, Glob, Content } from './Global/styles';
 
 export default function App() {
   return (
     <>
       <BrowserRouter>
-        <Wrapper>
+        <Glob>
           <Container>
             <Header />
             <Content>
@@ -20,7 +20,7 @@ export default function App() {
               <Routes />
             </Content>
           </Container>
-        </Wrapper>
+        </Glob>
         <GlobalStyle />
       </BrowserRouter>
     </>
